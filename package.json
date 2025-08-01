@@ -1,6 +1,9 @@
 {
   "name": "MCP-Node",
   "packageManager": "yarn@1.22.21+sha1.1959a18351b811cdeedbd484a8f86c3cc3bbaf72",
+  "scripts": {
+    "build": "tsc"
+  },
   "devDependencies": {
     "@types/node": "^24.1.0",
     "typescript": "^5.9.2"
