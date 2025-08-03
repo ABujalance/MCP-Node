@@ -2,14 +2,18 @@
   "name": "MCP-Node",
   "packageManager": "yarn@1.22.21+sha1.1959a18351b811cdeedbd484a8f86c3cc3bbaf72",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "dev": "tsx src/index.ts"
   },
   "devDependencies": {
     "@types/node": "^24.1.0",
+    "tsx": "^4.20.3",
     "typescript": "^5.9.2"
   },
   "dependencies": {
+    "@google/genai": "^1.12.0",
     "@modelcontextprotocol/sdk": "^1.17.1",
-    "axios": "^1.11.0"
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.1"
   }
 }
